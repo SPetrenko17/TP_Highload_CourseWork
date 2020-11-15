@@ -16,10 +16,10 @@ Shazam. Сервис распознавания музыки.
 - Сервисом пользуется более 150 миллионов людей ежемесячно.[Источник](https://expandedramblings.com/index.php/shazam-statistics/)
 - Активные пользователи Shazam совершают более 20 миллионов запросов на поиск музыки ежедневно.[Источник](https://expandedramblings.com/index.php/shazam-statistics/)
 
-[](https://github.com/SPetrenko17/TP_Highload_CourseWork/blob/main/media/ShazamMonthly.png?raw=true)
-[](https://github.com/SPetrenko17/TP_Highload_CourseWork/blob/main/media/ShazamPercentage.png?raw=true)
-[](https://github.com/SPetrenko17/TP_Highload_CourseWork/blob/main/media/ShazamPerDay.png?raw=true)
-[](https://github.com/SPetrenko17/TP_Highload_CourseWork/blob/main/media/MIDIA_STAT.png?raw=true)
+![](https://github.com/SPetrenko17/TP_Highload_CourseWork/blob/main/media/ShazamMonthly.png?raw=true)
+![](https://github.com/SPetrenko17/TP_Highload_CourseWork/blob/main/media/ShazamPercentage.png?raw=true)
+![](https://github.com/SPetrenko17/TP_Highload_CourseWork/blob/main/media/ShazamPerDay.png?raw=true)
+![](https://github.com/SPetrenko17/TP_Highload_CourseWork/blob/main/media/MIDIA_STAT.png?raw=true)
 
 5% от 400 000 000 - 20 000 000.
 

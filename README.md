@@ -12,7 +12,7 @@ Shazam. Сервис распознавания музыки.
 - Активная аудитория Shazam - 170 миллионов пользователей в мире
 - Согласно [оценке](https://musically.com/2020/02/19/spotify-apple-how-many-users-big-music-streaming-services) консалтинговой компании Midia Research, которая регулярно обновляет свои оценки, 
     на конец марта 2020 года музыкальными сервисами ежедневно пользуются 400 миллионов людей.
-![](https://github.com/SPetrenko17/TP_Highload_CourseWork/blob/main/media/MIDIA_STAT.png?raw=true)
+[](https://github.com/SPetrenko17/TP_Highload_CourseWork/blob/main/media/MIDIA_STAT.png?raw=true)
 - 5% всей скачиваемой/добавляемой на стриминговых сервисах музыки, приходится на предложенную данным сервисом.[Источник](https://expandedramblings.com/index.php/shazam-statistics)
 ![](https://github.com/SPetrenko17/TP_Highload_CourseWork/blob/main/media/ShazamPercentage.png?raw=true)
 - Сервисом пользуется более 150 миллионов людей ежемесячно.[Источник](https://expandedramblings.com/index.php/shazam-statistics/)

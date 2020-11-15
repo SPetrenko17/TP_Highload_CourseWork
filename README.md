@@ -10,11 +10,11 @@ Shazam. Сервис распознавания музыки.
 скачана/добавлена на устройство. 
 Сравним информацию из разных источников:
 - Активная аудитория Shazam - 170 миллионов пользователей в мире
-- Согласно [оценке](https://musically.com/2020/02/19/spotify-apple-how-many-users-big-music-streaming-services) консалтинговой компании Midia Research, которая регулярно обновляет свои оценки, 
+- Согласно ![оценке](https://musically.com/2020/02/19/spotify-apple-how-many-users-big-music-streaming-services) консалтинговой компании Midia Research, которая регулярно обновляет свои оценки, 
 на конец марта 2020 года музыкальными сервисами ежедневно пользуются 400 миллионов людей.
-- 5% всей скачиваемой/добавляемой на стриминговых сервисах музыки, приходится на предложенную данным сервисом.[Источник](https://expandedramblings.com/index.php/shazam-statistics)
-- Сервисом пользуется более 150 миллионов людей ежемесячно.[Источник](https://expandedramblings.com/index.php/shazam-statistics/)
-- Активные пользователи Shazam совершают более 20 миллионов запросов на поиск музыки ежедневно.[Источник](https://expandedramblings.com/index.php/shazam-statistics/)
+- 5% всей скачиваемой/добавляемой на стриминговых сервисах музыки, приходится на предложенную данным сервисом. ![Источник](https://expandedramblings.com/index.php/shazam-statistics)
+- Сервисом пользуется более 150 миллионов людей ежемесячно. ![Источник](https://expandedramblings.com/index.php/shazam-statistics/)
+- Активные пользователи Shazam совершают более 20 миллионов запросов на поиск музыки ежедневно. ![Источник](https://expandedramblings.com/index.php/shazam-statistics/)
 
 ![](https://github.com/SPetrenko17/TP_Highload_CourseWork/blob/main/media/ShazamMonthly.png?raw=true)
 ![](https://github.com/SPetrenko17/TP_Highload_CourseWork/blob/main/media/ShazamPercentage.png?raw=true)

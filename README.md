@@ -10,14 +10,14 @@ Shazam. Сервис распознавания музыки.
 скачана/добавлена на устройство. 
 Сравним информацию из разных источников:
 - Активная аудитория Shazam - 170 миллионов пользователей в мире
-- Согласно [оценке](https://musically.com/2020/02/19/spotify-apple-how-many-users-big-music-streaming-services?raw=true) консалтинговой компании Midia Research, которая регулярно обновляет свои оценки, 
+- Согласно ![оценке](https://musically.com/2020/02/19/spotify-apple-how-many-users-big-music-streaming-services?raw=true) консалтинговой компании Midia Research, которая регулярно обновляет свои оценки, 
     на конец марта 2020 года музыкальными сервисами ежедневно пользуются 400 миллионов людей.
 ![](https://github.com/SPetrenko17/TP_Highload_CourseWork/blob/main/media/MIDIA_STAT.png?raw=true)
-- 5% всей скачиваемой/добавляемой на стриминговых сервисах музыки, приходится на предложенную данным сервисом.[Источник](https://expandedramblings.com/index.php/shazam-statistics/?raw=true)
+- 5% всей скачиваемой/добавляемой на стриминговых сервисах музыки, приходится на предложенную данным сервисом.![Источник](https://expandedramblings.com/index.php/shazam-statistics/?raw=true)
 ![](https://github.com/SPetrenko17/TP_Highload_CourseWork/blob/main/media/ShazamPercentage.png?raw=true)
-- Сервисом пользуется более 150 миллионов людей ежемесячно.[Источник](https://expandedramblings.com/index.php/shazam-statistics/?raw=true)
+- Сервисом пользуется более 150 миллионов людей ежемесячно.![Источник](https://expandedramblings.com/index.php/shazam-statistics/?raw=true)
 ![](https://github.com/SPetrenko17/TP_Highload_CourseWork/blob/main/media/ShazamMonthly.png?raw=true)
-- Активные пользователи Shazam совершают более 20 миллионов запросов на поиск музыки ежедневно.[Источник](https://expandedramblings.com/index.php/shazam-statistics/?raw=true)
+- Активные пользователи Shazam совершают более 20 миллионов запросов на поиск музыки ежедневно.![Источник](https://expandedramblings.com/index.php/shazam-statistics/?raw=true)
 ![](https://github.com/SPetrenko17/TP_Highload_CourseWork/blob/main/media/ShazamPerDay.png?raw=true)
 
 5% от 400 000 000 - 20 000 000.
@@ -86,7 +86,7 @@ NoSQL решения подойдут лучше.
 https://habr.com/ru/company/wunderfund/blog/275043/
 
 <h2>5. Физическая система хранения</h2>
-[Кратко про техническую часть](https://github.com/SPetrenko17/TP_Highload_CourseWork/blob/main/media/ShazamIndustrialAudioSearch.pdf?raw=true)
+![Кратко про техническую часть](https://github.com/SPetrenko17/TP_Highload_CourseWork/blob/main/media/ShazamIndustrialAudioSearch.pdf?raw=true)
 
 
 Используя комбинаторное хеширование можно ускорить поиск до 10 тысяч раз,
@@ -164,7 +164,7 @@ Websocket позволит осуществить передачу аудио-к
 , время поиска составляет порядка 5-500 миллисекунд, в зависимости от нагрузки.
 
 
-Согласно [статье](https://vk.com/blog/arhitektura-i-algoritmy-indeksatsii-audiozapisey) об индексировании музыкальной библиотеки ВК, насчитывающей 
+Согласно ![статье](https://vk.com/blog/arhitektura-i-algoritmy-indeksatsii-audiozapisey) об индексировании музыкальной библиотеки ВК, насчитывающей 
 около 400 миллионов треков. Просьба не пугаться этого числа,
 В "Вконтакте", движок индексирования и поиска работает на 32 машинах, написан на чистом Go.
 Используются все современные возможности Go.
@@ -177,12 +177,12 @@ Websocket позволит осуществить передачу аудио-к
 Ранее отмечается, что использование комбинаторного хеширования дает в 10 000 раз более быстрый результат поиска совпадений в БД
 На данный момент сервис Shazam позволяет найти совпадение с аудио "радио качества"
 менее чем за 10 миллисекунд, с вероятной целью оптимизации, достигающей 1 миллисекунды на запрос.
-См [Пункт 3.2](https://github.com/SPetrenko17/TP_Highload_CourseWork/blob/main/media/ShazamIndustrialAudioSearch.pdf?raw=true)
+См ![Пункт 3.2](https://github.com/SPetrenko17/TP_Highload_CourseWork/blob/main/media/ShazamIndustrialAudioSearch.pdf?raw=true)
 
 
 <h3>Расчет потребного оборудования</h3>
 
-По [данным](https://www.tyan.com/EN/corporation/success_story_isp_GT24B2891) на 2008-2012 год, Shazam использовал сервера TYAN GT24 B2891 с двухъядерными процессорами
+По ![данным](https://www.tyan.com/EN/corporation/success_story_isp_GT24B2891) на 2008-2012 год, Shazam использовал сервера TYAN GT24 B2891 с двухъядерными процессорами
 AMD серии Opteron 2000 и оперативной памятью DDR400 на 16 Гб. 
 На тот момент у Shazam было минимум 10 миллионов пользователей из 150 стран мира. 
 Ежедневно сервисом пользовались 2 миллиона человек.\
@@ -208,13 +208,13 @@ AMD серии Opteron 2000 и оперативной памятью DDR400 на
 поддержки хостинга на своей стороне.
 Выбор пал на Amazon Web Service (AWS)
 AWS предлагает хорошие решения Amazon EC2 для масштабируемых облачных вычислений с поддержкой высоких нагрузок.
-Одним из решений является AWS с инстансами [Amazon EC2 C5](https://aws.amazon.com/ru/ec2/instance-types/c5/).
+Одним из решений является AWS с инстансами ![Amazon EC2 C5](https://aws.amazon.com/ru/ec2/instance-types/c5/).
 EC2 C5 отличается:
 - высокопроизводительные вычисления
 - пакетная обработка данных
 - Минимальное решение обеспечивает пропускную способность сети до 25 Гбит/с и отлично подходит для приложений, работающих с аудио и видео контентом с минимальными задержками
 
-По умолчанию, [Amazon AWS](https://aws.amazon.com/about-aws/global-infrastructure/regions_az/) позволяет иметь не более 20 инстансов на регион. Увеличение количества инстансов рассматривается после обращения в поддержку.
+По умолчанию, ![Amazon AWS](https://aws.amazon.com/about-aws/global-infrastructure/regions_az/) позволяет иметь не более 20 инстансов на регион. Увеличение количества инстансов рассматривается после обращения в поддержку.
 EC2 работает на основе крупной инфраструктуры с 69 зонами доступности в 22 регионах (от 2 до 5 зон доступности в каждом).
 - Регион Восток США (Огайо)
 - Регион Запад США (Орегон)

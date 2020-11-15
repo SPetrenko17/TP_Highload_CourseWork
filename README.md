@@ -30,7 +30,6 @@ Shazam. Сервис распознавания музыки.
 http://coding-geek.com/how-shazam-works/
 https://blog.acrcloud.com/how-does-shazam-work
 
-
 https://vk.com/blog/arhitektura-i-algoritmy-indeksatsii-audiozapisey
 
 <h2>3. Планируемая нагрузка</h2>
@@ -71,7 +70,7 @@ https://vk.com/blog/arhitektura-i-algoritmy-indeksatsii-audiozapisey
 
 Исходя из того, что подобная система нуждается в масштабировании, а главная сущность - музыка с хешами, имеет смысл 
 рассмотреть нереляционные базы данных
-![](https://github.com/SPetrenko17/TP_Highload_CourseWork/blob/main/media/hashTable.jpg?raw=true)
+![](https://github.com/SPetrenko17/TP_Highload_CourseWork/blob/main/media/hashTable.png?raw=true)
 
 
 
@@ -86,7 +85,7 @@ NoSQL решения подойдут лучше.
 https://habr.com/ru/company/wunderfund/blog/275043/
 
 <h2>5. Физическая система хранения</h2>
-![Кратко про техническую часть](https://github.com/SPetrenko17/TP_Highload_CourseWork/blob/main/media/ShazamIndustrialAudioSearch.pdf?raw=true)
+[Кратко про техническую часть](https://github.com/SPetrenko17/TP_Highload_CourseWork/blob/main/media/ShazamIndustrialAudioSearch.pdf?raw=true)
 
 
 Используя комбинаторное хеширование можно ускорить поиск до 10 тысяч раз,
@@ -164,7 +163,7 @@ Websocket позволит осуществить передачу аудио-к
 , время поиска составляет порядка 5-500 миллисекунд, в зависимости от нагрузки.
 
 
-Согласно ![статье](https://vk.com/blog/arhitektura-i-algoritmy-indeksatsii-audiozapisey) об индексировании музыкальной библиотеки ВК, насчитывающей 
+Согласно [статье](https://vk.com/blog/arhitektura-i-algoritmy-indeksatsii-audiozapisey/) об индексировании музыкальной библиотеки ВК, насчитывающей 
 около 400 миллионов треков. Просьба не пугаться этого числа,
 В "Вконтакте", движок индексирования и поиска работает на 32 машинах, написан на чистом Go.
 Используются все современные возможности Go.
@@ -177,7 +176,7 @@ Websocket позволит осуществить передачу аудио-к
 Ранее отмечается, что использование комбинаторного хеширования дает в 10 000 раз более быстрый результат поиска совпадений в БД
 На данный момент сервис Shazam позволяет найти совпадение с аудио "радио качества"
 менее чем за 10 миллисекунд, с вероятной целью оптимизации, достигающей 1 миллисекунды на запрос.
-См ![Пункт 3.2](https://github.com/SPetrenko17/TP_Highload_CourseWork/blob/main/media/ShazamIndustrialAudioSearch.pdf?raw=true)
+См [Пункт 3.2](https://github.com/SPetrenko17/TP_Highload_CourseWork/blob/main/media/ShazamIndustrialAudioSearch.pdf?raw=true)
 
 
 <h3>Расчет потребного оборудования</h3>

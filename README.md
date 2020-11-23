@@ -210,7 +210,32 @@ C учетом бекапов данных потребуется около 1 �
 
 - 100$ - Ежемесечная плата за добавление новых треков в базу.
 
-- 300% - Ежемесячная плата за поиск 
+- 300$ - Ежемесячная плата за поиск 
+
+Воспользовался калькулятором 
+Unit conversions
+ - Inbound:
+ - Internet: 300 TB per month x 1024 GB in a TB = 307200 GB per month
+Outbound:
+Internet: 100 TB per month x 1024 GB in a TB = 102400 GB per month
+Pricing calculations
+Inbound:
+Internet: 307200 GB x 0 USD per GB = 0.00 USD
+Outbound:
+- Internet: Tiered pricing for 102400 GB:
+- 10239 GB x 0.09 USD per GB = 921.51 $
+- 40960 GB x 0.085 USD per GB = 3481.60 $
+- 51200 GB x 0.07 USD per GB = 3584.00 $
+- Data Transfer cost (monthly): 7,987.11 $
+
+Amazon EC2 Instance Savings Plans (monthly)
+34,304.16 $
+Amazon Elastic Block Storage (EBS) pricing (monthly)
+22,119.30 $
+Data Transfer cost (monthly)
+7,987.11 $
+Total monthly cost:
+64,410.57 $
 
 <h2>6. Прочие технологии</h2>
 <h3>6.1 Языки программирования</h3>
